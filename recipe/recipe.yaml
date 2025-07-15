@@ -1,6 +1,6 @@
 context:
   name: hatch-multi
-  version: "0.1.0"
+  version: "0.1.1"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/hatch_multi/hatch_multi-${{ version }}.tar.gz
-  sha256: 09f78611e44122c59f7a987c09d09a1d378d22bd104ee9d2690bc60c1d7332eb
+  sha256: 16f27da11edbfc2c8fb714b590818199d6b67902e1f10ee2c432daceee5f1868
 
 build:
   number: 0
